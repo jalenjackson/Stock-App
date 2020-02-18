@@ -1,8 +1,9 @@
 import React from 'react';
 import RootReducer from './store/RootReducer';
 import I18nProvider from './i18n/i18n';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Search from './components/Search';
+import StockShow from './pages/StockShow';
 import createSagaMiddleware from 'redux-saga';
 import RootSaga from './store/RootSaga';
 import { applyMiddleware, createStore } from 'redux';
@@ -18,10 +19,13 @@ function App() {
   return (
     <Provider store={store}>
         <I18nProvider>
-            <Search />
             <Router>
                 <Switch>
-                    <Route exact path='/' component={Home} />
+                    <div className='main-wrapper'>
+                        <Search />
+                        <Route exact path='/' component={Home} />
+                        <Route exact path='/stocks/:stock' component={StockShow} />
+                    </div>
                 </Switch>
             </Router>
         </I18nProvider>

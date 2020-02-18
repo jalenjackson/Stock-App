@@ -39,3 +39,34 @@
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     font-size: 16px;
 }
+
+.stock-search-container {
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.ant-select-search__field {
+    background: rgb(59,59,60) !important;
+}
+
+.ant-select-search__field input {
+    color: white !important;
+    border-color: #35C59B !important;
+}
+
+.ant-select-dropdown-menu {
+    background: rgb(59,59,60) !important;
+}
+
+.ant-select-dropdown-menu li {
+    color: white !important;
+}
+
+.ant-select-dropdown-menu-item-active * {
+    color: #35C59B !important;
+}
+
+.ant-select-search__field__wrap {
+    background: #1D1D1E !important;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
-import Chart from '../Chart';
+import Chart from "../../components/Chart";
 
 function Home() {
     return (
         <div>
-            <Chart />
+            <Chart ticker='SPCE' />
         </div>
     )
 }

@@ -30,7 +30,7 @@ function* setSearchStockTicker({ term }) {
 }
 
 function* watchSearchStockTicker() {
-    yield debounce(1000, types.WATCH_SEARCH_TICKER_DATA, setSearchStockTicker);
+    yield debounce(500, types.WATCH_SEARCH_TICKER_DATA, setSearchStockTicker);
 }
 
 export default watchSearchStockTicker;

@@ -1,0 +1,116 @@
+.chart-wrapper {
+    position: relative;
+}
+
+.chart-overlay {
+    background: rgba(29,29,30, 0.7);
+    display: flex;
+    width: 85%;
+    height: 102%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: .3em;
+    text-align: center;
+}
+
+.chart-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.chart-overlay h1 {
+    color: white;
+}
+
+.interval-wrapper {
+    margin-top: 30px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.interval-wrapper a {
+    margin-left: 20px;
+    position: relative;
+    padding: 5px;
+    border-radius: .35em;
+    text-decoration: none;
+    color: #35C59B
+}
+
+.interval-wrapper a:hover {
+    color: white;
+}
+
+.interval-chosen {
+    background: #35C59B;
+    color: white;
+}
+
+.interval-chosen {
+    color: white !important;
+}
+
+.interval-wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -12.5px;
+    left: 20px;
+    width: 193px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.interval-chosen::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #35C59B;
+    z-index: 9999;
+}
+
+.try-fetching-chart-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.latest-price-wrapper {
+    margin-left: 150px;
+}
+
+.latest-price-wrapper h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.latest-price-wrapper h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.latest-price-change-color-green {
+    color: #35C59B !important;
+}
+
+.latest-price-change-color-red {
+    color: #FD1050 !important;
+}
+
+.ticker {
+    color: white;
+    margin-left: 150px;
+    margin-top: 20px;
+}

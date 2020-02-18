@@ -4,7 +4,7 @@ import types from './types';
 const initialState = Map({
     searchTerm: '',
     searchResults: List(),
-    selectedTicker: 'SPCE'
+    selectedTicker: ''
 });
 
 const SearchReducer = (state = initialState, action) => {
