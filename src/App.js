@@ -8,7 +8,7 @@ import createSagaMiddleware from 'redux-saga';
 import RootSaga from './store/RootSaga';
 import { applyMiddleware, createStore } from 'redux';
 import { Provider } from 'react-redux';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, HashRouter as Router } from 'react-router-dom';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(RootReducer, applyMiddleware(sagaMiddleware));

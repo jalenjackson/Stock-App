@@ -4,7 +4,7 @@ import Chart from "../../components/Chart";
 function Home() {
     return (
         <div>
-            <Chart ticker='SPCE' />
+            <Chart ticker='AAPL' />
         </div>
     )
 }
