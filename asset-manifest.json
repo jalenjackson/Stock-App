@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/qs-coding-challenge/static/css/main.dd2e24dd.chunk.css",
+    "main.js": "/qs-coding-challenge/static/js/main.1739e5b1.chunk.js",
+    "main.js.map": "/qs-coding-challenge/static/js/main.1739e5b1.chunk.js.map",
+    "runtime-main.js": "/qs-coding-challenge/static/js/runtime-main.50796b55.js",
+    "runtime-main.js.map": "/qs-coding-challenge/static/js/runtime-main.50796b55.js.map",
+    "static/js/2.82e46640.chunk.js": "/qs-coding-challenge/static/js/2.82e46640.chunk.js",
+    "static/js/2.82e46640.chunk.js.map": "/qs-coding-challenge/static/js/2.82e46640.chunk.js.map",
+    "index.html": "/qs-coding-challenge/index.html",
+    "precache-manifest.b93a54a909ac170fb6c313f93528f5a7.js": "/qs-coding-challenge/precache-manifest.b93a54a909ac170fb6c313f93528f5a7.js",
+    "service-worker.js": "/qs-coding-challenge/service-worker.js",
+    "static/css/main.dd2e24dd.chunk.css.map": "/qs-coding-challenge/static/css/main.dd2e24dd.chunk.css.map",
+    "static/js/2.82e46640.chunk.js.LICENSE.txt": "/qs-coding-challenge/static/js/2.82e46640.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50796b55.js",
+    "static/js/2.82e46640.chunk.js",
+    "static/css/main.dd2e24dd.chunk.css",
+    "static/js/main.1739e5b1.chunk.js"
+  ]
+}
