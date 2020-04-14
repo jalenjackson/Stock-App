@@ -1,7 +1,7 @@
 {
   "name": "qs-coding-challenge",
   "version": "0.1.0",
-  "homepage": "https://jalenjackson.github.io/qs-coding-challenge",
+  "homepage": "https://jalenjackson.github.io/Stock-App",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
