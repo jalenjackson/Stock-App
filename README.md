@@ -1,1 +1,1 @@
-https://jalenjackson.github.io/qs-coding-challenge/
+https://jalenjackson.github.io/Stock-App/
